@@ -1,0 +1,10 @@
+{
+    "name": "uiliam/projeto-clientes",
+    "description": "Sistema de autenticacao de clientes em PHP e MySQL",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    }
+}

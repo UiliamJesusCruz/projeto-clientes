@@ -1,6 +1,7 @@
 <?php
 
-require_once __DIR__ . '/Conexao.php';
+require_once __DIR__ . '/vendor/autoload.php';
+use App\Conexao;
 
 $config = require __DIR__ . '/config.local.php';
 

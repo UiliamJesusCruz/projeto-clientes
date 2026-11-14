@@ -1,5 +1,11 @@
 <?php
 
+namespace App;
+
+use PDO;
+use PDOException;
+use RuntimeException;
+
 // Dia 10 - Class de Conexao
 
 class Conexao{
